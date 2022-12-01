@@ -34,7 +34,7 @@
                         </li>
                         <!-- Dropdown -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="pages/Portfolio.html" id="navbardrop"
+                            <a class="nav-link dropdown-toggle" id="navbardrop"
                                data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Portfolio
                             </a>
@@ -50,58 +50,64 @@
                     </ul>
                 </div>
             </nav>
-        <h1> Contact Me</h1>
+        <h1 style="text-align:center; font-size:50px" class="mt-5 mb-5"> Contact Me</h1>
+        <!-- The information-->
+        <div class="row justify-content-evenly mb-4">
+            <div class="card" style="width:18rem;">
+                <div class="col-4-card-body">
+                    <h5 id="card-title">Email</h5>
+                    <div class="card-body">
+                        <a href="mailto:aj727@njit.edu">aj727@njit.edu</a>
+                        <a href="mailto:adityajain7140@gmail.com">adityajain7140@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width:18rem;">
+                <div class="col-4-card-body">
+                    <h5 id="card-title">Instagram</h5>
+                    <div class="card-body">
+                        <a href="https://www.instagram.com/adityajain7150/" target="_blank">adityajain7150</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width:18rem;">
+                <div class="col-4-card-body">
+                    <h5 id="card-title">Phone Number</h5>
+                    <div class="card-body">
+                        <p>(973) 281-3609</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="featurette-divider">
+        <!-- The form starts from here-->
         <div class="container">
           <div class="row">
             <form action="">
                 <div class="form-group">
                     <label for="firstname">First Name:</label>
-                    <input type="text" class="form-control" id="firstname"
+                    <input type="text" class="form-control-7 mb-4" id="firstname"
                            placeholder="First name" name="firstname" required>
                 </div>
-                <div class="form-group">
+                <div class="form-group" >
                     <label for="lastname">Last Name:</label>
-                    <input type="text" class="form-control" id="lastname"
+                    <input type="text" class="form-control-7 mb-4" id="lastname"
                            placeholder="Last name" name="lastname" required>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email"
+                    <input type="email" class="form-control-8 mb-4" id="email"
                            placeholder="Enter email" name="email" required>
                 </div>
                 <div class="mb-3">
                     <label for="moreQuestions" class="form-label">For any questions:</label>
                     <br>
-                    <textarea class="form-label" id="moreQuestions" rows="3"></textarea>
+                    <textarea class="form-label" id="moreQuestions" rows="7" cols="50"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
-              <div class="card" style="width:18rem;">
-                  <div class="card-body">
-                      <h5 id="card-title">Email</h5>
-                      <div class="card-body">
-                          <a href="mailto:aj727@njit.edu">aj727@njit.edu</a>
-                          <a href="mailto:adityajain7140@gmail.com">adityajain7140@gmail.com</a>
-                      </div>
-                  </div>
-              </div>
-              <div class="card" style="width:18rem;">
-              <div class="card-body">
-                  <h5 id="card-title">Instagram</h5>
-                  <div class="card-body">
-                      <a href="https://www.instagram.com/adityajain7150/" target="_blank">adityajain7150</a>
-                  </div>
-              </div>
-          </div>
-              <div class="card" style="width:18rem;">
-                  <div class="card-body">
-                      <h5 id="card-title">Phone Number</h5>
-                      <div class="card-body">
-                          <p>(973) 281-3609</p>
-                      </div>
-                  </div>
-              </div>
 </div>
+            <!--footer-->
             <footer class="footer page-footer font-small ">
                 <div class="container">
                     <div class="row">
