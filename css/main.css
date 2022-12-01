@@ -1,0 +1,34 @@
+:root {
+    --global-color-1: #FFEEE0;
+    --global-color-2: #1D1D1F;
+}
+
+
+
+body{
+    background-color: var(--global-color-1);
+}
+nav{
+    background-color: red;
+}
+/*.navbar-brand{
+    background-color: white;
+}*/
+
+
+#carouselExampleControls{
+    float:right;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}

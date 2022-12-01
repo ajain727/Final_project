@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="/css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="../index.html">Aditya Jain</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Portfolio.html" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Portfolio
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Education</a>
+                            <a class="dropdown-item" href="#">Skills & Experience</a>
+                            <a class="dropdown-item" href="/Documents/Resume.docx" target="_blank">Resume</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    <h1>About Me</h1>
+    <aside>
+        <img src="/Images/headshot.jpeg" alt="Aditya Jain's Photo" style="width:300px;">
+        <br>
+        <div class="card" style="width:18rem;">
+            <div class="card-body">
+            <h5 id="card-title">Why I should be hired?</h5>
+            <p class="card-text">I am a student who is passionate about art and coding. Being passionate about coding, I also have experience in web development. Following my interest, I have done an internship at Essex County Prosecutor's Office, where I did multiple workshops, learned about some of the ethical considerations of computers and the internet, how to design programs with human use in mind, and learned about the software that is used in the office protocols and investigation. But not only being a good coder makes me eligible for a job. In the past few years, I have done a few volunteering services where I learned teamwork and how to interact with people. Being a good team person and good communicator, I am also a multi-tasker. I worked as a cashier at Stop and Shop for 6 months. I assisted more than 60 customers with checkout and product queries.  I also helped "Pick and Delivery" to boost their satisfaction rate by 4%.
+                In my free time, I like to capture the world on my sketchbook and then on my laptop by Abode Suite. I had experience with adobe suite, you might have seen a couple of examples of my work on the home page, if not click HERE to have a look.
+                And always keep learning about new coding methods and languages.
+            </p>
+            </div>
+        </div>
+        <br>
+    </aside>
+    <section>
+        <div class="card" style="width:18rem;">
+            <div class="card-body">
+        <h4 class="card-title">Who am I?</h4>
+        <p class="card-text">----------------------</p>
+            </div>
+        </div>
+    </section>
+        <footer class="footer page-footer font-small ">
+            <div class="container">
+                <div class="row">
+                    <span class="text-muted">&copy; Aditya Jain, 2022 |  Terms Of Use  |  Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

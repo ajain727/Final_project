@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">Aditya Jain</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/About.html">About</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="pages/Portfolio.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Education</a>
+                                <a class="dropdown-item" href="#">Skills & Experience</a>
+                                <a class="dropdown-item" href="/Documents/Resume.docx" target="_blank">Resume</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <h1> Contact Me</h1>
+        <div class="container">
+          <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="moreQuestions" class="form-label">For any questions:</label>
+                    <br>
+                    <textarea class="form-label" id="moreQuestions" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+              <div class="card" style="width:18rem;">
+                  <div class="card-body">
+                      <h5 id="card-title">Email</h5>
+                      <div class="card-body">
+                          <a href="mailto:aj727@njit.edu">aj727@njit.edu</a>
+                          <a href="mailto:adityajain7140@gmail.com">adityajain7140@gmail.com</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="card" style="width:18rem;">
+              <div class="card-body">
+                  <h5 id="card-title">Instagram</h5>
+                  <div class="card-body">
+                      <a href="https://www.instagram.com/adityajain7150/" target="_blank">adityajain7150</a>
+                  </div>
+              </div>
+          </div>
+              <div class="card" style="width:18rem;">
+                  <div class="card-body">
+                      <h5 id="card-title">Phone Number</h5>
+                      <div class="card-body">
+                          <p>(973) 281-3609</p>
+                      </div>
+                  </div>
+              </div>
+</div>
+            <footer class="footer page-footer font-small ">
+                <div class="container">
+                    <div class="row">
+                        <span class="text-muted">&copy; Aditya Jain, 2022 |  Terms Of Use  |  Privacy Statement</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
